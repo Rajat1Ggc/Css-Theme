@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.body-wrapper,
+.header,
+.main-contant {
+    width: calc(100% - 280px);
+}
+
+.fixed-top {
+    right: 0px;
+    left: 280px;
+}
+
+.dropdown-menu[data-bs-popper] {
+    right: 10px;
+    left: auto;
+}
+
+.sidebar {
+    border-right: 1px solid #ccc;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover,
+.nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: var(--bs-nav-pills-link-active-bg);
+}
+
+.navbar-collapse {
+    flex-grow: 0
+}

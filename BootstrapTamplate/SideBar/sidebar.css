@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* side NavBar css */
+.sidebar {
+    border-right: 1px solid #ccc;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link:hover,
+.nav-pills .show>.nav-link {
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: var(--bs-nav-pills-link-active-bg);
+}
+
+/* body */
+
+.body-wrapper {
+    width: calc(100% - 280px);
+}
