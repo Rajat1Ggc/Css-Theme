@@ -26,12 +26,17 @@
     </div>
 
     <script>
-      const score = 1;
-      const maxScore = 21;
-      const value = (score * 180) / maxScore;
-      const rotate = (document.getElementById(
-        "meter-score"
-      ).style.transform = `rotate(${value}deg)`);
+      // gauge functionality
+      function gauge(score) {
+        const maxScore = 22;
+        const value = (score * 180) / maxScore;
+        const rotate = (document.getElementById(
+          "meter-score"
+        ).style.transform = `rotate(${value}deg)`);
+      }
+      // enter value here
+      let a = Math.floor(Math.random() * 10 + 1);
+      gauge(a);
     </script>
   </body>
 </html>
